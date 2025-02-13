@@ -4,7 +4,7 @@ import mediapipe as mp
 import numpy as np
 
 # Load the trained best model
-model = pickle.load(open('best_model.pkl', 'rb'))
+model = pickle.load(open('RandomForest_model.pkl', 'rb'))
 
 # Initialize Mediapipe Hands
 mp_hands = mp.solutions.hands
